@@ -25,5 +25,10 @@
 <a href="http://imgur.com/qPDQDpr"><img src="http://i.imgur.com/qPDQDpr.jpg" title="source: imgur.com" /></a>
 
 - Our team conducted industry research to find a product experience which has a loyal user-base.  We drew inspiration from Algolia, by utilizing a similar color pattern and site layout.
+
+<a href="http://imgur.com/8PMhUlK"><img src="http://i.imgur.com/8PMhUlK.png" title="source: imgur.com" /></a> 
+
 - The user is able to quickly discover new content, add new movies to their watchlist, and logout quickly. We hope a user will appreciate the simplicity of our design and will be encourage to return to the site, demonstrating loyalty.
 - Finally, we wanted a mascot to personify the primary quality of our version of TicketPunch, loyalty. We chose a FlatUI dog to represent this and placed her at the footer of the page to delight the user.
+
+<a href="http://imgur.com/fI0LnOl"><img src="http://i.imgur.com/fI0LnOl.jpg" title="source: imgur.com" /></a>
