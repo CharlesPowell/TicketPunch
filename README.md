@@ -1,7 +1,7 @@
-## Insert Logo Image here!
-
-![ScreenShot](/screenshot.png)
 # TicketPunch (Loyalty)
+
+<a href="http://imgur.com/Bu1B0L1"><img src="http://i.imgur.com/Bu1B0L1.png" title="source: imgur.com" /></a>
+
 - A web based application to search for movies and add selected movies to a watchlist.
 
 # Features
