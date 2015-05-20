@@ -32,7 +32,7 @@
 
 <a href="http://imgur.com/8PMhUlK"><img src="http://i.imgur.com/8PMhUlK.png" title="source: imgur.com" /></a> 
 
-- The user is able to quickly discover new content, add new movies to their watchlist, and logout quickly. We hope a user will appreciate the simplicity of our design and will be encourage to return to the site, demonstrating loyalty.
+- The user is able to quickly discover new content, add new movies to their watchlist, and logout quickly. Each time a user clicks the "I'm done watching" button, the movie is removed from the watchlist, providing immediate feedback from each interaction. We hope a user will appreciate the simplicity of our design and will be encourage to return to the site, demonstrating loyalty.
 
 <a href="http://imgur.com/5UoVqQw"><img src="http://i.imgur.com/5UoVqQw.png" title="source: imgur.com" /></a>
 
