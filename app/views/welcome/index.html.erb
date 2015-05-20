@@ -11,6 +11,10 @@
             <div class="form-group">
               <div id = 'sign-in-fields' >
 
+
+
+
+
                 <div class="row">
                   <input type="text" name="username" placeholder="...username" id = 'sign-in-username' class = 'form-control has-success'>
                 </div>
@@ -31,6 +35,19 @@
               <div class="row" id = "bot-text" >
                 <h4>Our #1 promise to you:</h4>
                 <h5>We will never share your email.</h5>
+              </div>
+
+              <div class="jank">
+                <%= form_tag('/sessions', method:'post') do %>
+                  <div class="row">
+                    <%= label_tag %>
+                    <%= text_field_tag :username %>
+                  </div>
+                  <%= label_tag :password %>
+                  <%= password_field_tag :password %>
+
+                  <%= submit_tag('Log-In')%>
+                <% end %>
               </div>
 
             </div>

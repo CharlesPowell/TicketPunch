@@ -1,8 +1,21 @@
-<h1>Welcome <%= @user.username %></h1>
+<header>
+  <span class = 'head-span'>
+      Hi <%= @user.username %>!
+    <%= form_tag('/sessions', method: 'delete' ) do %>
+      <%= submit_tag "logout", :class => "btn btn-block btn-lg btn-primary", :id => 'logout-button', :name => "Log Out"%>
+    <% end %>
+  </span>
+  <span class = 'img-span'>
+    <img src="logo3.png" alt="" />
+  </span>
+</header>
 
-<%= form_tag('/sessions', method: 'delete' ) do %>
-  <%= submit_tag "logout", :class => "btn btn-block btn-lg btn-primary", :name => "Log Out"%>
-<% end %>
+
+
+<div>
+  <h3 id="top-text">Your Watchlist</h3>
+</div>
+
 
 
 <input id='movie_search' type="text" placeholder='...movie title' class='form-control'>

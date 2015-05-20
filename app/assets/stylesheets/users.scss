@@ -1,20 +1,73 @@
 // Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
+// Brand Defined Colours
+$asset-slate: #2C3E4F;
+$asset-sky: #3E98D3;
+$asset-dusk: #965DA5;
+$asset-mistyforest: #2CB89A;
+$asset-wenge: #231F20;
 
 .title{
-  background-color: lightblue;
 }
 
 .meta-info{
-  background-color: lightgreen;
 }
-
-.plot{
-  background-color: pink;
+.img-rounded{
+  position: relative;
+  float: left;
+  width: 20%;
+  margin-left: 25px;
 }
-
+#movie-display{
+  position: relative;
+  float: right;
+}
 form {
   display: inline-block;
+}
+header{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 75px;
+
+  background-color: $asset-slate;
+}
+.head-span{
+  line-height: 75px;
+  position: relative;
+  float: right;
+  display: inline-block;
+  #head-text{
+    display: inline-block;
+  }
+}
+#logout-button{
+
+}
+
+.img-span{
+
+  line-height: 75px;
+  position: relative;
+  float: left;
+  display: inline-block;
+  #head-text{
+    display: inline-block;
+  }
+}
+
+
+#top-text{
+  color:$asset-slate;
+  text-align: center;
+  margin-top:30px;
+  margin-bottom: 25px;
+
+}
+
+#movie_search{
+  width: 95%;
+  margin: 0 auto;
 }
