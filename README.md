@@ -22,7 +22,7 @@
 # Design Rationale
 - WDI/UXDI engaged in an ideation process to determine app design based upon the assigned term "Loyalty." Upon reviewing the brand assets, we opted to use a darker blue to inspire trust from the user.  The use of whitespace provides clarity and ease of use during the product experience.
 
-http://imgur.com/qPDQDpr
+<a href="http://imgur.com/qPDQDpr"><img src="http://i.imgur.com/qPDQDpr.jpg" title="source: imgur.com" /></a>
 
 - Our team conducted industry research to find a product experience which has a loyal user-base.  We drew inspiration from Algolia, by utilizing a similar color pattern and site layout.
 - The user is able to quickly discover new content, add new movies to their watchlist, and logout quickly. We hope a user will appreciate the simplicity of our design and will be encourage to return to the site, demonstrating loyalty.
