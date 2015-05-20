@@ -16,3 +16,14 @@
 //= require underscore
 //= require_tree .
 //= require flat-ui.min.js
+$(document).ready(function(){
+
+
+  $('#wishlist-submit').click(function(){
+
+    console.log('movie added');
+
+  })
+
+  
+})

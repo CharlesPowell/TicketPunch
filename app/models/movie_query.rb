@@ -25,6 +25,7 @@ class MovieQuery < ActiveRecord::Base
           released: movie["Released"],
           plot:movie["Plot"],
           imdb_id: movie["imdbID"],
+          poster: movie["Poster"]
         })
         query.movie_id = movie.id
         query.save!
