@@ -31,6 +31,8 @@
 
 - The user is able to quickly discover new content, add new movies to their watchlist, and logout quickly. We hope a user will appreciate the simplicity of our design and will be encourage to return to the site, demonstrating loyalty.
 
+<a href="http://imgur.com/K7VuHYa"><img src="http://i.imgur.com/K7VuHYa.png" title="source: imgur.com" /></a>
+
 <a href="http://imgur.com/5UoVqQw"><img src="http://i.imgur.com/5UoVqQw.png" title="source: imgur.com" /></a>
 
 - Finally, we wanted a mascot to personify the primary quality of our version of TicketPunch, loyalty. We chose a FlatUI dog to represent this and placed her at the footer of the page to delight the user.
