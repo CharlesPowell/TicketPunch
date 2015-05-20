@@ -24,6 +24,7 @@
 
 <a href="http://imgur.com/qPDQDpr"><img src="http://i.imgur.com/qPDQDpr.jpg" title="source: imgur.com" /></a>
 
+- We believe loyalty can be represented through user retention, delivering new content to the user, building trust with the user, clear disclaimers on the site for intended use, and making the experience as efficient as possible.
 - Our team conducted industry research to find a product experience which has a loyal user-base.  We drew inspiration from Algolia, by utilizing a similar color pattern and site layout.
 
 <a href="http://imgur.com/8PMhUlK"><img src="http://i.imgur.com/8PMhUlK.png" title="source: imgur.com" /></a> 
