@@ -1,2 +1,40 @@
-<h3>Sign-Up</h3>
-<%= render partial: 'form' %>
+<header>
+  <h3>Ticket Punch</h3>
+</header>
+      <div class="container">
+          <div class="row" id = 'top-text'>
+            <div class="col-md-12">
+              <h4>How Ticketpunch works:</h4>
+              <h6>1. Search for movies!</h6>
+              <h6>2. Add it to your watch list.</h6>
+              <h6>3. When you're done, check it off!!</h6>
+            </div>
+          </div>
+
+            <div class="form-group">
+              <div id = 'sign-up-fields' >
+
+                <div class="row">
+                  <input type="text" name="username" placeholder="...username" id = 'sign-up-username' class = 'form-control has-success'>
+                </div>
+                <div class="row">
+                  <input type="password" name="password" placeholder="...password" id = 'sign-up-password' class = 'form-control has-success'>
+                </div>
+                <div class="row">
+                  <input type="text" name="email" placeholder="...email" id = 'sign-up-email' class = 'form-control has-success'>
+                </div>
+
+                <div class="row">
+                  <input type="submit" name="name" value="Log-in" id = 'sign-up-submit'class="btn btn-block btn-lg btn-primary">
+                </div>
+
+              </div>
+
+              <div class="row" id = "bot-text" >
+                <h4>Our #1 promise to you:</h4>
+                <h5>We will never share your email.</h5>
+              </div>
+
+            </div>
+
+      </div>

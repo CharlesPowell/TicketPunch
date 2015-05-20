@@ -1,3 +1,75 @@
 // Place all the styles related to the sessions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Brand Defined Colours
+$asset-slate: #2C3E4F;
+$asset-sky: #3E98D3;
+$asset-dusk: #965DA5;
+$asset-mistyforest: #2CB89A;
+$asset-wenge: #231F20;
+
+header{
+  color: $asset-sky;
+  width: 95%;
+  position: relative;
+  margin: 0 auto;
+  border-bottom: 3px solid $asset-sky;
+
+}
+.row{
+  margin: 20px;
+}
+input[type='text']{
+
+  border:0;
+    background-color:$asset-slate;
+    border-color: $asset-wenge;
+    color: white;
+}
+input[type='password']{
+
+  border:0;
+    background-color:$asset-slate;
+    border-color: $asset-wenge;
+    color: white;
+}
+#sign-in-fields{
+  width: 400px;
+  margin:0 auto;
+
+  #sign-in-submit{
+    width: 250px;
+    margin: 0 auto;
+  }
+
+}
+#top-text{
+  color:$asset-slate;
+  text-align: center;
+  margin-top:30px;
+  margin-bottom: 25px;
+
+}
+#bot-text{
+  color:$asset-slate;
+  text-align: center;
+  margin-top: 40px;
+}
+#sign-up-link{
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  #sign-in-fields{
+    width: 250px;
+    margin:0 auto;
+    #sign-in-submit{
+      width: 150px;
+    }
+
+  }
+}
