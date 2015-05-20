@@ -1,30 +1,29 @@
 <h1>Welcome <%= @user.username %></h1>
 
-<%= form_tag('/sessions', method: 'delete') do %>
-  <%= submit_tag "Log-Out" %>
+<%= form_tag('/sessions', method: 'delete' ) do %>
+  <%= submit_tag "logout", :class => "btn btn-block btn-lg btn-primary", :name => "Log Out"%>
 <% end %>
 
 
-<input id='movie_search' type="text" placeholder='...movie title'>
+<input id='movie_search' type="text" placeholder='...movie title' class='form-control'>
 <div id='movie-display'></div>
 
 
-<table>
   <% @user.watch_list_entries.each do |entries| %>
-    <tr>
-      <td>
-        <%= entries.movie.title %>
-      </td>
-      <td>
-        <form action="/users/wish/<%= entries.id %>" method="post">
-          <%= token_tag %>
-          <input type="hidden" name="_method" value="delete">
-          <input type="submit" value="Remove">
-        </form>
-      </td>
-    </tr>
+    <div>
+      <span>
+          <%= entries.movie.title %>
+      </span>
+      <span>
+          <form action="/users/wish/<%= entries.id %>" method="post">
+            <%= token_tag %>
+            <input type="hidden" name="_method" value="delete">
+            <input type="submit" value="Remove" class="btn btn-block btn-lg btn-primary">
+          </form>
+      </span>
+    </div>
   <% end %>
-</table>
+
 
 
 
@@ -38,9 +37,12 @@
   <p class='plot'>
     <%%= plot %>
   </p>
+
+  <img src='<%%= poster %>' class="img-rounded img-responsive">
+
   <form action="/users/wish" method="post">
     <%= token_tag %>
     <input type="hidden" name="movie_id" value="<%%= id %>">
-    <input type="submit" id = "wishlist-submit" value="Add To Watch List">
+    <input type="submit" id = "wishlist-submit" value="Add To Watch List" class="btn btn-block btn-lg btn-primary">
   </form>
 </script>
