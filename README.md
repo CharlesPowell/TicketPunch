@@ -1,6 +1,6 @@
 # TicketPunch (Loyalty)
 
-<a href="http://imgur.com/Bu1B0L1"><img src="http://i.imgur.com/Bu1B0L1.png" title="source: imgur.com" /></a>
+<a href="http://imgur.com/gUH8H6M"><img src="http://i.imgur.com/gUH8H6M.png" title="source: imgur.com" /></a>
 
 - A web based application to search for movies and add selected movies to a watchlist.
 
@@ -30,6 +30,9 @@
 <a href="http://imgur.com/8PMhUlK"><img src="http://i.imgur.com/8PMhUlK.png" title="source: imgur.com" /></a> 
 
 - The user is able to quickly discover new content, add new movies to their watchlist, and logout quickly. We hope a user will appreciate the simplicity of our design and will be encourage to return to the site, demonstrating loyalty.
+
+<a href="http://imgur.com/5UoVqQw"><img src="http://i.imgur.com/5UoVqQw.png" title="source: imgur.com" /></a>
+
 - Finally, we wanted a mascot to personify the primary quality of our version of TicketPunch, loyalty. We chose a FlatUI dog to represent this and placed her at the footer of the page to delight the user.
 
 <a href="http://imgur.com/fI0LnOl"><img src="http://i.imgur.com/fI0LnOl.jpg" title="source: imgur.com" /></a>
